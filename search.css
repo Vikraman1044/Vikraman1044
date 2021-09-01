@@ -1,0 +1,105 @@
+.container-out {
+    font-family: "Fira Sans", sans-serif;
+    padding: 15px;
+    }
+    
+    .container-in {
+    width: 95%;
+    margin: 0 auto;
+    }
+    
+    .search-container {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    }
+    
+    .search-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #1ca0b8;
+}
+#search-input {
+    width: 90%;
+    padding: 13px;
+    border-radius: 4px;
+    border: 2px solid #1ca0b8;
+    font-size: 15px;
+    }
+    
+    #search-input:focus {
+    outline: none;
+    }
+    
+    #search-results {
+    position: absolute;
+    z-index: 10;
+    margin: 1px auto;
+    background: #1ca0b8;
+    width: 90%;
+    text-align: left;
+    border-radius: 4px;
+    border: 2px solid #1ca0b8;
+    display: none;
+    }
+    .search-item {
+    color: white;
+    cursor: pointer;
+    }
+    .search-item p {
+    margin: 0;
+    padding: 10px;
+    }
+    .search-item:hover {
+    background: #2cc7e2;
+    }
+    #search-data {
+    margin-top: 10px;
+    color: #1ca0b8;
+    }
+    #search-data p {
+    margin: 0;
+    padding: 6px;
+    font-size: 16px;
+    }
+    span{
+        font-size: 44px;
+    }
+    body{
+        text-align: center;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0 2vw;
+        padding: 0%;
+        display: flex;
+        color: blue;
+        font-size: 3vh;
+    }
+    a{
+        text-decoration: none;
+        padding: 2vw;
+    }
+    a:hower{
+        background-color: crimson;
+    }
+    input[type=text],select,textarea{
+        width: 40vw;
+        height: 9vh;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 45px 44px 44px 45px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+    input[type=submit]{
+        background-color: blue;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: none;
+    }
